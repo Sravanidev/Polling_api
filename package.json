@@ -1,0 +1,23 @@
+{
+  "name": "polling_api_project",
+  "version": "1.0.0",
+  "description": "Polling Api Project Coding ninjas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sravani coding ninjas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express-ejs": "^2.0.0",
+    "express-router": "^0.0.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.3",
+    "nodemon": "^3.0.3",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
